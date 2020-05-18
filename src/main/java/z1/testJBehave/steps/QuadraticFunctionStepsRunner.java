@@ -15,6 +15,10 @@ public class QuadraticFunctionStepsRunner extends Steps
 		function = new QuadraticFunction();
 	}
 	@Then("otrzymam dwa miejsca zerowe: $x1 i $x2")
+	@Aliases(values={
+		"otrzymam dwa miejsca zerowe: $x1, $x2",
+		"dostanę $x1 i $x2",
+		"dostanę $x1, $x2"})
 	public void thenOtrzymamDwaRozwiązania(@Named("x1") double x1, @Named("x2") double x2)
 	{
 		function.calculate();
