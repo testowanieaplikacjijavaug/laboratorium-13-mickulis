@@ -1,8 +1,7 @@
-package testJBehave;
+package z1.testJBehave;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -19,7 +18,7 @@ import org.jbehave.core.steps.InjectableStepsFactory;
 import org.jbehave.core.steps.InstanceStepsFactory;
 
 
-import testJBehave.steps.QuadraticFunctionStepsRunner;
+import z1.testJBehave.steps.QuadraticFunctionStepsRunner;
 
 /**
  * generic binder for all JBehave tests. Binds all the story files to the

@@ -1,4 +1,4 @@
-package testJBehave;
+package z1.testJBehave;
 import java.io.Serializable;
 
 public class QuadraticFunction implements Serializable {

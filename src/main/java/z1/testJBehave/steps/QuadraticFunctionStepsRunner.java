@@ -1,11 +1,8 @@
-package testJBehave.steps;
+package z1.testJBehave.steps;
 
 import org.jbehave.core.annotations.*;
 import org.jbehave.core.steps.Steps;
-import testJBehave.QuadraticFunction;
-
-import java.util.Arrays;
-import java.util.List;
+import z1.testJBehave.QuadraticFunction;
 
 import static org.junit.jupiter.api.Assertions.*;
 
